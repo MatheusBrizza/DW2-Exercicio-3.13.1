@@ -1,3 +1,51 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 250px;
+  width: 400px;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+
+h1,
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow',
+    Arial, sans-serif;
+}
+
+p {
+  font-size: small;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: white;
+  padding: 5px;
+  border-color: lightgray;
+  border-radius: 3px;
+  padding: 5px 10px;
+  box-shadow: none;
+  border: 1px solid grey;
+}
+
+#continue {
+  padding: 5px 30px;
 }
